@@ -1,9 +1,4 @@
 
-File System Simulation Documentation
-Introduction:
-This comprehensive document details the implementation of a file system simulation, offering users a command-line interface to interact with directories and files. The design is structured, utilizing object-oriented principles and employing various command classes to execute operations on the file system efficiently.
-
-Implementation Details:
 1. File System Structure:
 The file system is conceptualized as a tree-like structure, where each node represents either a directory or a file.
 The primary data structure is the Node class, which encapsulates attributes such as the node's name, type (file or directory), content (for files), and children (subdirectories or files).
